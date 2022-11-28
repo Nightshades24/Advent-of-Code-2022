@@ -5,13 +5,6 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader", "Reader\Reader.csproj", "{92DC7E49-52C6-4066-BBDC-BB265DBAF599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{BA538EF1-4460-4156-B355-A1B76FAB1B13}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1872A2A-3B56-4A05-B40F-EE1B8B4218A3}"
-	ProjectSection(SolutionItems) = preProject
-		SetIn.cs = SetIn.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,10 +15,6 @@ Global
 		{92DC7E49-52C6-4066-BBDC-BB265DBAF599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92DC7E49-52C6-4066-BBDC-BB265DBAF599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92DC7E49-52C6-4066-BBDC-BB265DBAF599}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA538EF1-4460-4156-B355-A1B76FAB1B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA538EF1-4460-4156-B355-A1B76FAB1B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA538EF1-4460-4156-B355-A1B76FAB1B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA538EF1-4460-4156-B355-A1B76FAB1B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

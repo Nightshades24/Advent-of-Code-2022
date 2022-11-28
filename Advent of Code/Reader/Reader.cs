@@ -16,7 +16,7 @@ namespace Reader
 
         public static void SetIn(int day)
         {
-            string path = "..\\..\\..\\Day" + day + "\\in.txt";
+            string path = $"..\\..\\..\\Day{day}\\in.txt";
             Console.SetIn(new StreamReader(path));
         }
     }
