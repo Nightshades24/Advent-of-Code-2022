@@ -27,12 +27,11 @@ namespace Day15
             long counter = 0;
 
             int regel = 0;
-            Dictionary<long, List<(long X1, long X2)>> lijnenPerY = new Dictionary<long, List<(long X1, long X2)>>();
+            List<(long X1, long X2)>[] lijnenPerY = new List<(long X1, long X2)>[maxVal + 1];
             for (int i =  0; i <= maxVal; i++)
             {
                 lijnenPerY[i] = new List<(long X1, long X2)>();
             }
-            List<(long X1, long X2)> lijnen = new List<(long, long)>();
 
             while (temp != null)
             {
